@@ -9,4 +9,3 @@ Show system status of Raspberry Pi in a PCD8544 screen
 ## Other options
 - Use `image_generate.py` to preview the image before sending to Raspberry Pi
 - Adjust `sys_status.py` to get inverted color
-- 
