@@ -1,6 +1,6 @@
 # sys status
 Show system status of Raspberry Pi in a PCD8544 screen
-![alt text](src/demo.jpg)
+![alt text](src/demo.png)
 
 ## Usage
 1. Edit `screen_config.ini` if needed
