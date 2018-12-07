@@ -19,4 +19,5 @@ while True:
     disp.display_image(image_generate.invert_color(image))
     t2 = time.time()
     # Remove the running time to make sure it takes exactly 1 sec every time 
-    time.sleep(1 - (t2 - t1))
+    sleeptime = (1 - (t2 - t1)) if (1 - (t2 - t1)) > 0 else 0
+    time.sleep(sleeptime)
