@@ -15,7 +15,7 @@
 **/*.db
 **/*.bmp
 **/*.log
-
+**/*.out
 
 *test*
 config.ini

@@ -47,13 +47,13 @@ def get_IP_addr():
         s.connect(('www.baidu.com', 0))
         ipAddress = s.getsockname()[0]
     except Exception as e:
-        raise
+        pass
     else:
         return ipAddress
     finally:
         s.close()
 
-
+@logging_manager.logging_to_file()
 def gather_sys_info():
     sys_info = dict()
     mem_info = get_RAM_info()
