@@ -53,7 +53,7 @@ def get_IP_addr():
     finally:
         s.close()
 
-@logging_manager.logging_to_file()
+@logging_manager.logging_to_file
 def gather_sys_info():
     sys_info = dict()
     mem_info = get_RAM_info()
